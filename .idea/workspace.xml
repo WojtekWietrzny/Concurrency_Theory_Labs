@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="added lab1 package">
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/DecrementThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/IncrementThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Main.java" afterDir="false" />
+    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="first and second excercises done">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +38,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "WojtekWietrzny"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/WojtekWietrzny/Concurrency_Theory_Labs.git",
+    "accountId": "353b76ff-7e57-4bd5-af87-d6bca1c7784d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2nIJNVpkfYWFj667SNHICQAOcXQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,14 +62,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Concurrency_Theory_Labs [:laboratories.lab1.Main.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "lab1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/wojci/IdeaProjects/active-record/active-record",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -80,6 +101,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,7 +117,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728654618367</updated>
-      <workItem from="1728654619365" duration="2298000" />
+      <workItem from="1728654619365" duration="2446000" />
+      <workItem from="1728658486357" duration="98000" />
+      <workItem from="1728659121005" duration="115000" />
+      <workItem from="1728679552464" duration="1907000" />
     </task>
     <task id="LOCAL-00001" summary="starting configuratiob">
       <option name="closed" value="true" />
@@ -106,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728655006037</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first and second excercises done">
+      <option name="closed" value="true" />
+      <created>1728657067147</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728657067147</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="starting configuratiob" />
     <MESSAGE value="added lab1 package" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lab1 package" />
+    <MESSAGE value="first and second excercises done" />
+    <option name="LAST_COMMIT_MESSAGE" value="first and second excercises done" />
   </component>
 </project>

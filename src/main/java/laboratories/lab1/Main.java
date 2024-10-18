@@ -15,7 +15,22 @@ public class Main {
         t1.join();
         t2.join();
 
-        System.out.println(counter.getCounter());
+        System.out.println("Counter value after operations: " + counter.getCounter());
+
+        Buffer buffer = new Buffer();
+        Producer producer = new Producer(buffer, 10);
+        Consumer consumer = new Consumer(buffer, 10);
+
+        Thread t3 = new Thread(producer);
+        Thread t4 = new Thread(consumer);
+
+        t3.start();
+        t4.start();
+
+        t3.join();
+        t4.join();
+
+
 
     }
 }
