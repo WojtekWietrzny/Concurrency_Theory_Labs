@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="first and second excercises done">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/BinarySemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CountingSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Main.java" afterDir="false" />
     </list>
@@ -33,23 +31,23 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lab1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "WojtekWietrzny"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;WojtekWietrzny&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/WojtekWietrzny/Concurrency_Theory_Labs.git",
-    "accountId": "353b76ff-7e57-4bd5-af87-d6bca1c7784d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/WojtekWietrzny/Concurrency_Theory_Labs.git&quot;,
+    &quot;accountId&quot;: &quot;353b76ff-7e57-4bd5-af87-d6bca1c7784d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -67,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "lab1",
+    "git-widget-placeholder": "lab2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/wojci/IdeaProjects/active-record/active-record",
     "node.js.detected.package.eslint": "true",

@@ -1,7 +1,10 @@
-package laboratories.lab1;
-// temporary disabled
+package laboratories.lab2;
+
+import laboratories.lab1.*;
+
+//temporary_disabled
 public class Main {
-    public void main() throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
         Counter counter = new Counter(0);
         DecrementThread decrement = new DecrementThread(counter);
         IncrementThread increment = new IncrementThread(counter);
