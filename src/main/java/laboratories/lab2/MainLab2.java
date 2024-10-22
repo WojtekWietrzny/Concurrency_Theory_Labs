@@ -3,9 +3,9 @@ package laboratories.lab2;
 import laboratories.lab1.*;
 
 //temporary_disabled
-public class Main {
-    public static void main(String[] args) throws InterruptedException {
-        Counter counter = new Counter(0);
+public class MainLab2 {
+    public void main() throws InterruptedException {
+        CounterWithSemaphore counter = new CounterWithSemaphore(0);
         DecrementThread decrement = new DecrementThread(counter);
         IncrementThread increment = new IncrementThread(counter);
 
@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println("Counter value after operations: " + counter.getCounter());
 
-        Buffer buffer = new Buffer();
+        /*Buffer buffer = new Buffer();
         Producer producer = new Producer(buffer, 10);
         Consumer consumer = new Consumer(buffer, 10);
 
@@ -31,7 +31,7 @@ public class Main {
         t4.start();
 
         t3.join();
-        t4.join();
+        t4.join();*/
 
 
 

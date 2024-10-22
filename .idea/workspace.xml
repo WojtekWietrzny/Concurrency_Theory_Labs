@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="first and second excercises done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/BinarySemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CountingSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/Main.java" afterDir="false" />
+    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="initial changes on lab2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CounterInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CounterWithSemaphore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/DecrementThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/DecrementThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/IncrementThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/IncrementThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/MainLab1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/BinarySemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/BinarySemaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/MainLab2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,6 +54,9 @@
     &quot;accountId&quot;: &quot;353b76ff-7e57-4bd5-af87-d6bca1c7784d&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -60,6 +69,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Concurrency_Theory_Labs [:laboratories.Main.main()].executor": "Run",
     "Gradle.Concurrency_Theory_Labs [:laboratories.lab1.Main.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -79,10 +89,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="laboratories.lab2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laboratories.lab1.Main" />
+      <option name="MAIN_CLASS_NAME" value="laboratories.Main" />
       <module name="Concurrency_Theory_Labs.main" />
+      <option name="PROGRAM_PARAMETERS" value="lab2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="laboratories.lab1.*" />
@@ -93,6 +109,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Unnamed" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -119,6 +144,7 @@
       <workItem from="1728658486357" duration="98000" />
       <workItem from="1728659121005" duration="115000" />
       <workItem from="1728679552464" duration="1907000" />
+      <workItem from="1729599680349" duration="4215000" />
     </task>
     <task id="LOCAL-00001" summary="starting configuratiob">
       <option name="closed" value="true" />
@@ -144,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728657067147</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial changes on lab2">
+      <option name="closed" value="true" />
+      <created>1729261470834</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729261470834</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +188,7 @@
     <MESSAGE value="starting configuratiob" />
     <MESSAGE value="added lab1 package" />
     <MESSAGE value="first and second excercises done" />
-    <option name="LAST_COMMIT_MESSAGE" value="first and second excercises done" />
+    <MESSAGE value="initial changes on lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial changes on lab2" />
   </component>
 </project>

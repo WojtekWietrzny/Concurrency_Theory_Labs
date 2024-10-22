@@ -1,9 +1,11 @@
 package laboratories.lab1;
 
-public class IncrementThread implements Runnable{
-    private Counter counter;
+import laboratories.lab2.CounterInterface;
 
-    public IncrementThread(Counter counter){
+public class IncrementThread implements Runnable{
+    private CounterInterface counter;
+
+    public IncrementThread(CounterInterface counter){
         this.counter = counter;
     }
     @Override

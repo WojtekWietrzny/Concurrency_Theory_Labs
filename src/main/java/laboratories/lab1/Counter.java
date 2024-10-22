@@ -1,6 +1,8 @@
 package laboratories.lab1;
 
-public class Counter {
+import laboratories.lab2.CounterInterface;
+
+public class Counter implements CounterInterface {
     private int value;
 
     public Counter(int value){

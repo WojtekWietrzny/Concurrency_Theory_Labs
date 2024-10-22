@@ -11,7 +11,7 @@ public class BinarySemaphore {
         if(!state){
             notify();
         }
-        this.state = true;
+        this.state = false;
 
 
     }
