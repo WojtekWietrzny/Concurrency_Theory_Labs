@@ -20,20 +20,42 @@ public class MainLab2 {
 
         System.out.println("Counter value after operations: " + counter.getCounter());
 
-        /*Buffer buffer = new Buffer();
-        Producer producer = new Producer(buffer, 10);
-        Consumer consumer = new Consumer(buffer, 10);
+        System.out.println("Dining philosophers start");
 
-        Thread t3 = new Thread(producer);
-        Thread t4 = new Thread(consumer);
+        // Liczba filozofów
+        int numPhilosophers = 5;
 
-        t3.start();
-        t4.start();
+        // Semafory dla widelców (BinarySemaphore)
+        BinarySemaphore[] forks = new BinarySemaphore[numPhilosophers];
+        for (int i = 0; i < numPhilosophers; i++) {
+            forks[i] = new BinarySemaphore(true); // Inicjalizacja semaforów
+        }
 
-        t3.join();
-        t4.join();*/
+        // Semafor dla lokaja (CountingSemaphore)
+        CountingSemaphore butler = new CountingSemaphore(numPhilosophers - 1);
 
+        // Uruchomienie symulacji z lokajem
+        System.out.println("Symulacja z lokajem:");
+        for (int i = 0; i < numPhilosophers; i++) {
+            PhilosopherWithButler philosopherWithButler = new PhilosopherWithButler(i, forks[i], forks[(i + 1) % numPhilosophers], butler);
+            Thread thread = new Thread(philosopherWithButler);
 
+        }
 
+        // Opóźnienie przed uruchomieniem drugiej symulacji
+        try {
+            Thread.sleep(2000); // Czekaj 2 sekundy
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+
+        // Uruchomienie symulacji z asymetrycznym podnoszeniem widelców
+        System.out.println("Symulacja z asymetrycznym podnoszeniem widelców:");
+        for (int i = 0; i < numPhilosophers; i++) {
+            Philosopher philosopher = new Philosopher(i, forks[i], forks[(i + 1) % numPhilosophers]);
+            new Thread(philosopher).start();
+        }
     }
+
+
 }

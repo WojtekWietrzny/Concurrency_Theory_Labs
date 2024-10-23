@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="initial changes on lab2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CounterInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CounterWithSemaphore.java" afterDir="false" />
+    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="rearranged mains and completed first two tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/Philosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/PhilosopherWithButler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/DecrementThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/DecrementThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/IncrementThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/IncrementThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/MainLab1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/BinarySemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/BinarySemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/MainLab2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CounterWithSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CounterWithSemaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CountingSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CountingSemaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/MainLab2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/MainLab2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,29 +64,32 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Concurrency_Theory_Labs [:laboratories.Main.main()].executor": "Run",
-    "Gradle.Concurrency_Theory_Labs [:laboratories.lab1.Main.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "lab2",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/wojci/IdeaProjects/active-record/active-record",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Concurrency_Theory_Labs [:laboratories.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Concurrency_Theory_Labs [:laboratories.lab1.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab2&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wojci/Git repositories/Concurrency_Theory_Labs/src/main/java/laboratories/lab2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wojci\Git repositories\Concurrency_Theory_Labs\src\main\java\laboratories\lab2" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="laboratories.lab2" />
     </key>
@@ -115,8 +115,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -144,7 +144,8 @@
       <workItem from="1728658486357" duration="98000" />
       <workItem from="1728659121005" duration="115000" />
       <workItem from="1728679552464" duration="1907000" />
-      <workItem from="1729599680349" duration="4215000" />
+      <workItem from="1729599680349" duration="8409000" />
+      <workItem from="1729678425682" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="starting configuratiob">
       <option name="closed" value="true" />
@@ -178,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729261470834</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="rearranged mains and completed first two tasks">
+      <option name="closed" value="true" />
+      <created>1729604150590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729604150590</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +198,7 @@
     <MESSAGE value="added lab1 package" />
     <MESSAGE value="first and second excercises done" />
     <MESSAGE value="initial changes on lab2" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial changes on lab2" />
+    <MESSAGE value="rearranged mains and completed first two tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="rearranged mains and completed first two tasks" />
   </component>
 </project>

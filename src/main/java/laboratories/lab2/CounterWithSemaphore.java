@@ -8,25 +8,25 @@ public class CounterWithSemaphore implements CounterInterface{
 
     public CounterWithSemaphore(int value){
         this.value = value;
-        this.semaphore = new BinarySemaphore(false);
+        this.semaphore = new BinarySemaphore(true);
     }
 
     public int  incrementCounter(){
-        semaphore.aquire();
+        semaphore.block();
         try {
             this.value += 1;
             return this.value;
         } finally {
-            semaphore.free();
+            semaphore.release();
         }
     }
     public int decrementCounter(){
-        semaphore.aquire();
+        semaphore.block();
         try{
             this.value -= 1;
             return this.value;
         } finally {
-            semaphore.free();
+            semaphore.release();
         }
     }
     public int getCounter(){

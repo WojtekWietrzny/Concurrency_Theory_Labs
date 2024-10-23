@@ -7,25 +7,19 @@ public class BinarySemaphore {
         this.state = state;
     }
 
-    public void free(){
-        if(!state){
-            notify();
+    public synchronized void block(){
+        while(!state){
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
         this.state = false;
-
-
     }
-    public void aquire(){
-        while (!state) {
-            try{
-                wait();
-            }
-            catch(InterruptedException e){
-                e.printStackTrace();
-                Thread.currentThread().interrupt();
-            }
-        }
+    public synchronized void release(){
         this.state = true;
+        notify();
     }
 
 

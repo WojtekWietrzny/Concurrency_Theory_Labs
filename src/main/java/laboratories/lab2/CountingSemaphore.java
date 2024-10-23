@@ -16,7 +16,7 @@ public class CountingSemaphore {
 
 
     }
-    public void aquire(){
+    public void acquire(){
         while (count >= capacity) {
             try{
                 wait();
