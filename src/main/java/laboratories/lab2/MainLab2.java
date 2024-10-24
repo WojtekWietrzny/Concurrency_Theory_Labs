@@ -4,7 +4,7 @@ import laboratories.lab1.*;
 
 //temporary_disabled
 public class MainLab2 {
-    public void main() throws InterruptedException {
+    public void main(String option) throws InterruptedException {
         CounterWithSemaphore counter = new CounterWithSemaphore(0);
         DecrementThread decrement = new DecrementThread(counter);
         IncrementThread increment = new IncrementThread(counter);
@@ -30,30 +30,49 @@ public class MainLab2 {
         for (int i = 0; i < numPhilosophers; i++) {
             forks[i] = new BinarySemaphore(true); // Inicjalizacja semaforów
         }
+        Thread[] tableThread = new Thread[numPhilosophers];
 
-        // Semafor dla lokaja (CountingSemaphore)
-        CountingSemaphore butler = new CountingSemaphore(numPhilosophers - 1);
+        switch(option){
+            case "pierwszy": // dziala
+                System.out.println("Symulacja z asymetrycznym podnoszeniem widelców:");
 
-        // Uruchomienie symulacji z lokajem
-        System.out.println("Symulacja z lokajem:");
-        for (int i = 0; i < numPhilosophers; i++) {
-            PhilosopherWithButler philosopherWithButler = new PhilosopherWithButler(i, forks[i], forks[(i + 1) % numPhilosophers], butler);
-            Thread thread = new Thread(philosopherWithButler);
+                // Tworzenie wątków filozofów
+                for (int i = 0; i < numPhilosophers; i++) {
+                    Philosopher philosopher = new Philosopher(i, forks[i], forks[(i + 1) % numPhilosophers]);
+                    tableThread[i] = new Thread(philosopher);
+                }
+                for(int i = 0; i < numPhilosophers; i++){
+                    tableThread[i].start();
+                }
+                break;
+            case "drugi": // dziala
+                System.out.println("Symulacja z asymetrycznym podnoszeniem widelców:");
 
-        }
+                // Tworzenie wątków filozofów
+                for (int i = 0; i < numPhilosophers; i++) {
+                    PhilosopherAsynchronous philosopherAsynchronous = new PhilosopherAsynchronous(i, forks[i], forks[(i + 1) % numPhilosophers]);
+                    tableThread[i] = new Thread(philosopherAsynchronous);
+                }
+                for(int i = 0; i < numPhilosophers; i++){
+                    tableThread[i].start();
+                }
+                break;
+            case "trzeci": // dziala
+                // Semafor dla lokaja
+                CountingSemaphore butler = new CountingSemaphore(numPhilosophers - 1);
 
-        // Opóźnienie przed uruchomieniem drugiej symulacji
-        try {
-            Thread.sleep(2000); // Czekaj 2 sekundy
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
+                System.out.println("Symulacja z lokajem:");
 
-        // Uruchomienie symulacji z asymetrycznym podnoszeniem widelców
-        System.out.println("Symulacja z asymetrycznym podnoszeniem widelców:");
-        for (int i = 0; i < numPhilosophers; i++) {
-            Philosopher philosopher = new Philosopher(i, forks[i], forks[(i + 1) % numPhilosophers]);
-            new Thread(philosopher).start();
+                // Tworzenie wątków filozofów
+                for (int i = 0; i < numPhilosophers; i++) {
+                    PhilosopherWithButler philosopherWithButler = new PhilosopherWithButler(i, forks[i], forks[(i + 1) % numPhilosophers], butler);
+                    tableThread[i] = new Thread(philosopherWithButler);
+                }
+
+                for(int i = 0; i < numPhilosophers; i++){
+                    tableThread[i].start();
+                }
+                break;
         }
     }
 

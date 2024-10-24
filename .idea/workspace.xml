@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="rearranged mains and completed first two tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/Philosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/PhilosopherWithButler.java" afterDir="false" />
+    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="minor fix regarding BinarySemaphore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/PhilosopherAsynchronous.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/BinarySemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/BinarySemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CounterWithSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CounterWithSemaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/MainLab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/MainLab1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CountingSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CountingSemaphore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/MainLab2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/MainLab2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/Philosopher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/PhilosopherWithButler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/PhilosopherWithButler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,7 +99,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="laboratories.Main" />
       <module name="Concurrency_Theory_Labs.main" />
-      <option name="PROGRAM_PARAMETERS" value="lab2" />
+      <option name="PROGRAM_PARAMETERS" value="lab2 pierwszy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="laboratories.lab1.*" />
@@ -145,7 +146,9 @@
       <workItem from="1728659121005" duration="115000" />
       <workItem from="1728679552464" duration="1907000" />
       <workItem from="1729599680349" duration="8409000" />
-      <workItem from="1729678425682" duration="299000" />
+      <workItem from="1729678425682" duration="630000" />
+      <workItem from="1729679337798" duration="640000" />
+      <workItem from="1729781040757" duration="4344000" />
     </task>
     <task id="LOCAL-00001" summary="starting configuratiob">
       <option name="closed" value="true" />
@@ -187,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729604150590</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="minor fix regarding BinarySemaphore">
+      <option name="closed" value="true" />
+      <created>1729679054379</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729679054379</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +210,7 @@
     <MESSAGE value="first and second excercises done" />
     <MESSAGE value="initial changes on lab2" />
     <MESSAGE value="rearranged mains and completed first two tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="rearranged mains and completed first two tasks" />
+    <MESSAGE value="minor fix regarding BinarySemaphore" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fix regarding BinarySemaphore" />
   </component>
 </project>

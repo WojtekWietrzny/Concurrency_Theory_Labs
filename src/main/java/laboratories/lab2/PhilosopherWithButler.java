@@ -37,11 +37,11 @@ public class PhilosopherWithButler implements Runnable {
 
     private void think() throws InterruptedException {
         System.out.println("Filozof " + id + " myśli.");
-        Thread.sleep((int) (Math.random() * 100));
+        //Thread.sleep(100);
     }
 
     private void eat() throws InterruptedException {
         System.out.println("Filozof " + id + " je.");
-        Thread.sleep((int) (Math.random() * 100));
+        //Thread.sleep(100);
     }
 }

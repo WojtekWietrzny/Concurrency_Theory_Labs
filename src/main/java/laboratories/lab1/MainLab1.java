@@ -1,7 +1,7 @@
 package laboratories.lab1;
 // temporary disabled
 public class MainLab1 {
-    public void main() throws InterruptedException {
+    public void main(String option) throws InterruptedException {
         Counter counter = new Counter(0);
         DecrementThread decrement = new DecrementThread(counter);
         IncrementThread increment = new IncrementThread(counter);

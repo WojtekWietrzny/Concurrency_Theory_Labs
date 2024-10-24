@@ -8,7 +8,7 @@ public class CountingSemaphore {
         this.capacity = capacity;
     }
 
-    public void free(){
+    public synchronized void free(){
         if(count > 0){
             notify();
         }
@@ -16,7 +16,7 @@ public class CountingSemaphore {
 
 
     }
-    public void acquire(){
+    public synchronized void acquire(){
         while (count >= capacity) {
             try{
                 wait();
