@@ -22,7 +22,6 @@ public class MainLab2 {
 
         System.out.println("Dining philosophers start");
 
-        // Liczba filozofów
         int numPhilosophers = 5;
 
         // Semafory dla widelców (BinarySemaphore)

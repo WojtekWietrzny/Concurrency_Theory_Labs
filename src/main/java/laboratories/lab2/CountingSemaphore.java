@@ -4,20 +4,19 @@ public class CountingSemaphore {
     // true means up and available
     private int capacity;
     private int count;
-    public CountingSemaphore(int capacity) {
-        this.capacity = capacity;
+    public CountingSemaphore(int count) {
+        this.count = count;
+
     }
 
     public synchronized void free(){
-        if(count > 0){
-            notify();
-        }
-        this.count -= 1;
+        notify();
+        this.count += 1;
 
 
     }
     public synchronized void acquire(){
-        while (count >= capacity) {
+        while (count == 0) {
             try{
                 wait();
             }
@@ -26,7 +25,7 @@ public class CountingSemaphore {
                 Thread.currentThread().interrupt();
             }
         }
-        this.count += 1;
+        this.count -= 1;
     }
 
 
