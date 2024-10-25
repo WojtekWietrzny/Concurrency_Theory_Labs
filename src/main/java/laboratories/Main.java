@@ -2,6 +2,7 @@ package laboratories;
 
 import laboratories.lab1.*;
 import laboratories.lab2.MainLab2;
+import laboratories.lab3.MainLab3;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
@@ -18,6 +19,11 @@ public class Main {
                     MainLab2 main2= new MainLab2();
                     String option2 = args[1];
                     main2.main(option2);
+                    break;
+                case "lab3":
+                    MainLab3 main3 = new MainLab3();
+                    String option3 = args[1];
+                    main3.main(option3);
                     break;
             }
 

@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="minor fix regarding BinarySemaphore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/PhilosopherAsynchronous.java" afterDir="false" />
+    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="finished lab2 tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/MainLab3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/PrintThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/PrinterMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/notes.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab1/MainLab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab1/MainLab1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CountingSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/CountingSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/MainLab2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/MainLab2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/Philosopher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab2/PhilosopherWithButler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab2/PhilosopherWithButler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lab1" />
+        <entry key="$PROJECT_DIR$" value="lab2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,28 +64,28 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Concurrency_Theory_Labs [:laboratories.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Concurrency_Theory_Labs [:laboratories.lab1.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lab2&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wojci/Git repositories/Concurrency_Theory_Labs/src/main/java/laboratories/lab2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Concurrency_Theory_Labs [:laboratories.Main.main()].executor": "Run",
+    "Gradle.Concurrency_Theory_Labs [:laboratories.lab1.Main.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "lab3",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/wojci/Git repositories/Concurrency_Theory_Labs/src/main/java/laboratories/lab2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\wojci\Git repositories\Concurrency_Theory_Labs\src\main\java\laboratories\lab2" />
@@ -99,7 +98,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="laboratories.Main" />
       <module name="Concurrency_Theory_Labs.main" />
-      <option name="PROGRAM_PARAMETERS" value="lab2 pierwszy" />
+      <option name="PROGRAM_PARAMETERS" value="lab2 trzeci" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="laboratories.lab1.*" />
@@ -148,7 +147,8 @@
       <workItem from="1729599680349" duration="8409000" />
       <workItem from="1729678425682" duration="630000" />
       <workItem from="1729679337798" duration="640000" />
-      <workItem from="1729781040757" duration="4344000" />
+      <workItem from="1729781040757" duration="4414000" />
+      <workItem from="1729861887303" duration="4489000" />
     </task>
     <task id="LOCAL-00001" summary="starting configuratiob">
       <option name="closed" value="true" />
@@ -198,7 +198,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729679054379</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finished lab2 tasks">
+      <option name="closed" value="true" />
+      <created>1729785485394</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729785485394</updated>
+    </task>
+    <task id="LOCAL-00008" summary="finished lab2 tasks">
+      <option name="closed" value="true" />
+      <created>1729865434553</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729865434553</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +227,7 @@
     <MESSAGE value="initial changes on lab2" />
     <MESSAGE value="rearranged mains and completed first two tasks" />
     <MESSAGE value="minor fix regarding BinarySemaphore" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor fix regarding BinarySemaphore" />
+    <MESSAGE value="finished lab2 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lab2 tasks" />
   </component>
 </project>

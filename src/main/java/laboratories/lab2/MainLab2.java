@@ -32,7 +32,7 @@ public class MainLab2 {
         Thread[] tableThread = new Thread[numPhilosophers];
 
         switch(option){
-            case "pierwszy": // dziala
+            case "first": // dziala
                 System.out.println("Symulacja z asymetrycznym podnoszeniem widelców:");
 
                 // Tworzenie wątków filozofów
@@ -44,7 +44,7 @@ public class MainLab2 {
                     tableThread[i].start();
                 }
                 break;
-            case "drugi": // dziala
+            case "second": // dziala
                 System.out.println("Symulacja z asymetrycznym podnoszeniem widelców:");
 
                 // Tworzenie wątków filozofów
@@ -56,7 +56,7 @@ public class MainLab2 {
                     tableThread[i].start();
                 }
                 break;
-            case "trzeci": // dziala
+            case "third": // dziala
                 // Semafor dla lokaja
                 CountingSemaphore butler = new CountingSemaphore(numPhilosophers - 1);
 
