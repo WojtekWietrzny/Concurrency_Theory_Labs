@@ -1,4 +1,4 @@
-package laboratories.lab3;
+package laboratories.lab3.printing;
 
 public class Printer {
     private int printerId;
@@ -8,12 +8,18 @@ public class Printer {
         this.isLocked = isLocked;
     }
     public void print(String text) {
-        System.out.println(printerId + ": " + text);
+        System.out.println("printer id: " + printerId + " ,message: " + text);
     }
     public int id(){
         return printerId;
     }
     public boolean isLocked() {
         return isLocked;
+    }
+    public void setLocked() {
+        isLocked = true;
+    }
+    public void setUnlocked() {
+        isLocked = false;
     }
 }

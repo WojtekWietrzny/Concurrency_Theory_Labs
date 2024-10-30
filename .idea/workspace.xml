@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="finished lab2 tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/MainLab3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/PrintThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/PrinterMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/notes.md" afterDir="false" />
+    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="initial class changed lab3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/printing/PrinterMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/waiters/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/waiters/Waiter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab3/MainLab3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/MainLab3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab3/PrintThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/printing/PrintThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab3/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/printing/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab3/PrinterMonitor.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +99,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="laboratories.Main" />
       <module name="Concurrency_Theory_Labs.main" />
-      <option name="PROGRAM_PARAMETERS" value="lab2 trzeci" />
+      <option name="PROGRAM_PARAMETERS" value="lab3 second" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="laboratories.lab1.*" />
@@ -148,7 +149,9 @@
       <workItem from="1729678425682" duration="630000" />
       <workItem from="1729679337798" duration="640000" />
       <workItem from="1729781040757" duration="4414000" />
-      <workItem from="1729861887303" duration="4489000" />
+      <workItem from="1729861887303" duration="4761000" />
+      <workItem from="1730231970484" duration="935000" />
+      <workItem from="1730299458768" duration="6165000" />
     </task>
     <task id="LOCAL-00001" summary="starting configuratiob">
       <option name="closed" value="true" />
@@ -214,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729865434553</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="initial class changed lab3">
+      <option name="closed" value="true" />
+      <created>1729866586724</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729866586724</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +239,22 @@
     <MESSAGE value="rearranged mains and completed first two tasks" />
     <MESSAGE value="minor fix regarding BinarySemaphore" />
     <MESSAGE value="finished lab2 tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lab2 tasks" />
+    <MESSAGE value="initial class changed lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial class changed lab3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/laboratories/lab3/printing/Printer.java</url>
+          <line>9</line>
+          <properties class="laboratories.lab3.printing.Printer">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
