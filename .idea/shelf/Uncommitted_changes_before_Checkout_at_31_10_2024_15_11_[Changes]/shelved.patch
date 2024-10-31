@@ -1,0 +1,114 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"bb99790f-6e09-4a87-804a-c5656465d1ad\" name=\"Changes\" comment=\"initial class changed lab3\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/laboratories/lab3/printing/PrinterMonitor.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/laboratories/lab3/waiters/Customer.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/laboratories/lab3/waiters/Waiter.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/laboratories/lab3/MainLab3.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/laboratories/lab3/MainLab3.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/laboratories/lab3/PrintThread.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/laboratories/lab3/printing/PrintThread.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/laboratories/lab3/Printer.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/laboratories/lab3/printing/Printer.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/laboratories/lab3/PrinterMonitor.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"lab2\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;WojtekWietrzny&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/WojtekWietrzny/Concurrency_Theory_Labs.git&quot;,\r\n    &quot;accountId&quot;: &quot;353b76ff-7e57-4bd5-af87-d6bca1c7784d&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2nIJNVpkfYWFj667SNHICQAOcXQ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showExcludedFiles\" value=\"false\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Gradle.Concurrency_Theory_Labs [:laboratories.Main.main()].executor\": \"Run\",\r\n    \"Gradle.Concurrency_Theory_Labs [:laboratories.lab1.Main.main()].executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"git-widget-placeholder\": \"lab3\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/wojci/Git repositories/Concurrency_Theory_Labs/src/main/java/laboratories/lab2\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\wojci\\Git repositories\\Concurrency_Theory_Labs\\src\\main\\java\\laboratories\\lab2\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"laboratories.lab2\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Main\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"laboratories.Main\" />\r\n      <module name=\"Concurrency_Theory_Labs.main\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"lab3 second\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"laboratories.lab1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Unnamed\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Application.Unnamed\" />\r\n      <item itemvalue=\"Application.Main\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"bb99790f-6e09-4a87-804a-c5656465d1ad\" name=\"Changes\" comment=\"\" />\r\n      <created>1728654618367</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1728654618367</updated>\r\n      <workItem from=\"1728654619365\" duration=\"2446000\" />\r\n      <workItem from=\"1728658486357\" duration=\"98000\" />\r\n      <workItem from=\"1728659121005\" duration=\"115000\" />\r\n      <workItem from=\"1728679552464\" duration=\"1907000\" />\r\n      <workItem from=\"1729599680349\" duration=\"8409000\" />\r\n      <workItem from=\"1729678425682\" duration=\"630000\" />\r\n      <workItem from=\"1729679337798\" duration=\"640000\" />\r\n      <workItem from=\"1729781040757\" duration=\"4414000\" />\r\n      <workItem from=\"1729861887303\" duration=\"4761000\" />\r\n      <workItem from=\"1730231970484\" duration=\"935000\" />\r\n      <workItem from=\"1730299458768\" duration=\"6165000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"starting configuratiob\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728654899534</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728654899534</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"added lab1 package\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728655006037</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728655006037</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"first and second excercises done\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728657067147</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728657067147</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"initial changes on lab2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729261470834</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729261470834</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"rearranged mains and completed first two tasks\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729604150590</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729604150590</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"minor fix regarding BinarySemaphore\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729679054379</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729679054379</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"finished lab2 tasks\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729785485394</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729785485394</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"finished lab2 tasks\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729865434553</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729865434553</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"initial class changed lab3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729866586724</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729866586724</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"starting configuratiob\" />\r\n    <MESSAGE value=\"added lab1 package\" />\r\n    <MESSAGE value=\"first and second excercises done\" />\r\n    <MESSAGE value=\"initial changes on lab2\" />\r\n    <MESSAGE value=\"rearranged mains and completed first two tasks\" />\r\n    <MESSAGE value=\"minor fix regarding BinarySemaphore\" />\r\n    <MESSAGE value=\"finished lab2 tasks\" />\r\n    <MESSAGE value=\"initial class changed lab3\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"initial class changed lab3\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/laboratories/lab3/printing/Printer.java</url>\r\n          <line>9</line>\r\n          <properties class=\"laboratories.lab3.printing.Printer\">\r\n            <option name=\"EMULATED\" value=\"true\" />\r\n            <option name=\"WATCH_EXIT\" value=\"false\" />\r\n          </properties>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision acf02e846971e1e10c9066dd27461df33febd2f9)
++++ b/.idea/workspace.xml	(date 1730379314837)
+@@ -4,15 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="initial class changed lab3">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/printing/PrinterMonitor.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/waiters/Customer.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/waiters/Waiter.java" afterDir="false" />
++    <list default="true" id="bb99790f-6e09-4a87-804a-c5656465d1ad" name="Changes" comment="lab3 ended">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab3/MainLab3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/MainLab3.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab3/PrintThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/printing/PrintThread.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab3/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/laboratories/lab3/printing/Printer.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/laboratories/lab3/PrinterMonitor.java" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -65,28 +58,28 @@
+     <option name="showExcludedFiles" value="false" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Gradle.Concurrency_Theory_Labs [:laboratories.Main.main()].executor": "Run",
+-    "Gradle.Concurrency_Theory_Labs [:laboratories.lab1.Main.main()].executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "lab3",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/wojci/Git repositories/Concurrency_Theory_Labs/src/main/java/laboratories/lab2",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Gradle.Concurrency_Theory_Labs [:laboratories.Main.main()].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.Concurrency_Theory_Labs [:laboratories.lab1.Main.main()].executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;lab3&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/wojci/Git repositories/Concurrency_Theory_Labs/src/main/java/laboratories/lab2&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\wojci\Git repositories\Concurrency_Theory_Labs\src\main\java\laboratories\lab2" />
+@@ -151,7 +144,8 @@
+       <workItem from="1729781040757" duration="4414000" />
+       <workItem from="1729861887303" duration="4761000" />
+       <workItem from="1730231970484" duration="935000" />
+-      <workItem from="1730299458768" duration="6165000" />
++      <workItem from="1730299458768" duration="6417000" />
++      <workItem from="1730379064136" duration="250000" />
+     </task>
+     <task id="LOCAL-00001" summary="starting configuratiob">
+       <option name="closed" value="true" />
+@@ -225,7 +219,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1729866586724</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="lab3 ended">
++      <option name="closed" value="true" />
++      <created>1730305900428</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1730305900428</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -240,7 +242,8 @@
+     <MESSAGE value="minor fix regarding BinarySemaphore" />
+     <MESSAGE value="finished lab2 tasks" />
+     <MESSAGE value="initial class changed lab3" />
+-    <option name="LAST_COMMIT_MESSAGE" value="initial class changed lab3" />
++    <MESSAGE value="lab3 ended" />
++    <option name="LAST_COMMIT_MESSAGE" value="lab3 ended" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
