@@ -6,8 +6,8 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Waiter {
     private final Lock lock = new ReentrantLock();
-    // condition for tables
-    private Condition tables = lock.newCondition();
+    // condition for table
+    private Condition table = lock.newCondition();
     // condition for each pair
     private Condition[] pairs;
     private int[] booked;
@@ -26,7 +26,7 @@ public class Waiter {
         try {
 
             while (personAtTable > 0) {
-                tables.await();
+                table.await();
             }
             if (booked[number] == 0) {
                 booked[number] = 1;
@@ -49,7 +49,7 @@ public class Waiter {
         try {
             personAtTable--;
             if (personAtTable == 0) {
-                tables.signalAll();
+                table.signalAll();
             }
         } finally {
             lock.unlock();
